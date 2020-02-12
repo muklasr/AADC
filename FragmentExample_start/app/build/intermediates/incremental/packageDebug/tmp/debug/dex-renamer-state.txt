@@ -1,0 +1,4 @@
+#Wed Feb 12 18:12:56 WIB 2020
+base.0=/home/muklasr/Downloads/android-advanced-starter-apps-master/FragmentExample_start/app/build/intermediates/dex/debug/mergeDexDebug/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/muklasr/Downloads/android-advanced-starter-apps-master/FragmentExample_start/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v12/values-v12.xml",
+            "map": [
+                {
+                    "source": "/home/muklasr/.gradle/caches/transforms-2/files-2.1/cfe60aab5c3667a307af72a8cfc5c1ed/appcompat-v7-26.0.1/res/values-v12/values-v12.xml",
+                    "from": {
+                        "startLines": "2,5,8,9",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,279,479,598",
+                        "endLines": "4,7,8,9",
+                        "endColumns": "12,12,118,94",
+                        "endOffsets": "274,474,593,688"
+                    }
+                }
+            ]
+        }
+    ]
+}
