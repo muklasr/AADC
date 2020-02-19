@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/muklasr/Downloads/android-advanced-starter-apps-master/FragmentExample_start/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
+            "outputFile": "/home/muklasr/Downloads/Android Advanced Development Course (AADC)/FragmentExample_start/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
             "map": [
                 {
                     "source": "/home/muklasr/.gradle/caches/transforms-2/files-2.1/de0ea3f5e82d78bb5dd92c2c1c45550e/support-compat-26.0.1/res/values-v16/values-v16.xml",
