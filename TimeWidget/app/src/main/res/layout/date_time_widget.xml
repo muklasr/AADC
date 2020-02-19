@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:padding="@dimen/widget_margin">
+
+    <TextView
+        android:id="@+id/tvTimeShadow"
+        style="@style/TextTime"
+        android:paddingStart="3dp"
+        android:paddingTop="3dp"
+        android:textColor="@android:color/black"
+        tools:ignore="RtlSymmetry"
+        tools:text="04:20" />
+
+    <TextView
+        android:id="@+id/tvTime"
+        style="@style/TextTime"
+        android:textColor="@android:color/white"
+        tools:text="04:20" />
+
+    <TextView
+        android:id="@+id/tvDateShadow"
+        style="@style/TextDate"
+        android:paddingStart="2dp"
+        android:paddingTop="2dp"
+        android:textColor="@android:color/black"
+        tools:ignore="RtlSymmetry"
+        tools:text="Wed, 19 February 2020" />
+
+    <TextView
+        android:id="@+id/tvDate"
+        style="@style/TextDate"
+        android:textColor="@android:color/white"
+        tools:text="Wed, 19 February 2020" />
+
+</RelativeLayout>
