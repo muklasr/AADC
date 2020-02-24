@@ -5,18 +5,20 @@
     android:background="@android:color/transparent"
     android:padding="@dimen/widget_margin">
 
-    <TextView
+    <TextClock
         android:id="@+id/tvTimeShadow"
         style="@style/TextTime"
         android:paddingStart="3dp"
+        android:format12Hour="hh:mm"
         android:paddingTop="3dp"
         android:textColor="@android:color/black"
         tools:ignore="RtlSymmetry"
         tools:text="04:20" />
 
-    <TextView
+    <TextClock
         android:id="@+id/tvTime"
         style="@style/TextTime"
+        android:format12Hour="hh:mm"
         android:textColor="@android:color/white"
         tools:text="04:20" />
 

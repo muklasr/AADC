@@ -39,14 +39,10 @@ internal fun updateAppWidget(
 ) {
     // Construct the RemoteViews object
     val views = RemoteViews(context.packageName, R.layout.date_time_widget)
-    val timeFormat = SimpleDateFormat("hh:mm", Locale.getDefault())
     val dateFormat = SimpleDateFormat("EEE, dd MMMM yyyy", Locale.getDefault())
 
-    val timeString = timeFormat.format(Date())
     val dateString = dateFormat.format(Date())
 
-    views.setTextViewText(R.id.tvTime, timeString)
-    views.setTextViewText(R.id.tvTimeShadow, timeString)
     views.setTextViewText(R.id.tvDate, dateString)
     views.setTextViewText(R.id.tvDateShadow, dateString)
 
