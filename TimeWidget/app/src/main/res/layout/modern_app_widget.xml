@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent">
+
+    <TextClock
+        android:id="@+id/tvClock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/tvMinutes"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif-condensed"
+        android:format12Hour="hh"
+        android:layout_marginBottom="-20dp"
+        android:text="14"
+        android:textColor="@android:color/white"
+        android:textSize="85sp" />
+
+    <TextClock
+        android:id="@+id/tvMinutes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="-45dp"
+        android:fontFamily="sans-serif-condensed"
+        android:format12Hour="mm"
+        android:text="53"
+        android:textColor="@android:color/white"
+        android:textSize="85sp" />
+
+    <TextView
+        android:id="@+id/tvDay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvMinutes"
+        android:layout_centerHorizontal="true"
+        android:shadowDx="1.0"
+        android:shadowDy="1.0"
+        android:shadowColor="@android:color/black"
+        android:shadowRadius="2.0"
+        android:fontFamily="cursive"
+        android:text="Monday"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="45sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvDay"
+        android:layout_centerHorizontal="true"
+        android:text="February 24, 2020"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+</RelativeLayout>

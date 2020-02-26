@@ -1,5 +1,6 @@
 package com.muklas.broadcastreceiver
 
+import android.app.AlarmManager
 import android.app.PendingIntent
 import android.appwidget.AppWidgetManager
 import android.appwidget.AppWidgetProvider
@@ -64,6 +65,14 @@ class NewAppWidget : AppWidgetProvider() {
                 PendingIntent.FLAG_UPDATE_CURRENT
             )
             views.setOnClickPendingIntent(R.id.btnUpdate, pendingUpdate)
+
+            val calendar = Calendar.getInstance()
+            calendar.timeInMillis = System.currentTimeMillis()
+            calendar.set(Calendar.MINUTE, calendar.get(Calendar.MINUTE) + 1)
+            calendar.set(Calendar.SECOND, 0)
+            calendar.set(Calendar.MILLISECOND, 0)
+
+            val alarmManager = context.getSystemService(Context.ALARM_SERVICE)
 
             // Instruct the widget manager to update the widget
             appWidgetManager.updateAppWidget(appWidgetId, views)
