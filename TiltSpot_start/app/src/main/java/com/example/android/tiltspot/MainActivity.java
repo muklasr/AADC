@@ -16,6 +16,7 @@
 
 package com.example.android.tiltspot;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.pm.ActivityInfo;
 import android.hardware.Sensor;
@@ -77,10 +78,12 @@ public class MainActivity extends AppCompatActivity
         // is not available on the device.
         mSensorManager = (SensorManager) getSystemService(
                 Context.SENSOR_SERVICE);
-        mSensorAccelerometer = mSensorManager.getDefaultSensor(
-                Sensor.TYPE_ACCELEROMETER);
-        mSensorMagnetometer = mSensorManager.getDefaultSensor(
-                Sensor.TYPE_MAGNETIC_FIELD);
+        if (mSensorManager != null) {
+            mSensorAccelerometer = mSensorManager.getDefaultSensor(
+                    Sensor.TYPE_ACCELEROMETER);
+            mSensorMagnetometer = mSensorManager.getDefaultSensor(
+                    Sensor.TYPE_MAGNETIC_FIELD);
+        }
     }
 
     /**
@@ -116,10 +119,11 @@ public class MainActivity extends AppCompatActivity
         mSensorManager.unregisterListener(this);
     }
 
+    @SuppressLint("DefaultLocale")
     @Override
     public void onSensorChanged(SensorEvent sensorEvent) {
         int sensorType = sensorEvent.sensor.getType();
-        switch (sensorType){
+        switch (sensorType) {
             case Sensor.TYPE_ACCELEROMETER:
                 mAccelerometerData = sensorEvent.values.clone();
                 break;
@@ -129,8 +133,8 @@ public class MainActivity extends AppCompatActivity
         }
         float[] rotationMatrix = new float[9];
         boolean rotationOK = SensorManager.getRotationMatrix(rotationMatrix, null, mAccelerometerData, mMagnetometerData);
-        float orientationValues[] = new float[3];
-        if (rotationOK){
+        float[] orientationValues = new float[3];
+        if (rotationOK) {
             SensorManager.getOrientation(rotationMatrix, orientationValues);
         }
         float azimuth = orientationValues[0];
