@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.android.tiltspot;
+package com.muklas.android.tiltspot;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -155,13 +155,21 @@ public class MainActivity extends AppCompatActivity
         mSpotRight.setAlpha(0f);
         if (pitch > 0) {
             mSpotBottom.setAlpha(pitch);
+            mSpotBottom.setScaleX(pitch);
+            mSpotBottom.setScaleY(pitch);
         } else {
             mSpotTop.setAlpha(Math.abs(pitch));
+            mSpotTop.setScaleX(pitch);
+            mSpotTop.setScaleY(pitch);
         }
         if (roll > 0) {
             mSpotLeft.setAlpha(roll);
+            mSpotLeft.setScaleX(roll);
+            mSpotLeft.setScaleY(roll);
         } else {
             mSpotRight.setAlpha(Math.abs(roll));
+            mSpotRight.setScaleX(roll);
+            mSpotRight.setScaleY(roll);
         }
     }
 
