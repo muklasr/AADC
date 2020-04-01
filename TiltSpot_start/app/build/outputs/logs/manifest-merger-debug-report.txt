@@ -19,7 +19,7 @@ INJECTED from /home/muklasr/Downloads/Android Advanced Development Course (AADC)
 INJECTED from /home/muklasr/Downloads/Android Advanced Development Course (AADC)/TiltSpot_start/app/src/main/AndroidManifest.xml:15:1-34:12
 INJECTED from /home/muklasr/Downloads/Android Advanced Development Course (AADC)/TiltSpot_start/app/src/main/AndroidManifest.xml:15:1-34:12
 	package
-		ADDED from /home/muklasr/Downloads/Android Advanced Development Course (AADC)/TiltSpot_start/app/src/main/AndroidManifest.xml:16:11-49
+		ADDED from /home/muklasr/Downloads/Android Advanced Development Course (AADC)/TiltSpot_start/app/src/main/AndroidManifest.xml:16:11-48
 		INJECTED from /home/muklasr/Downloads/Android Advanced Development Course (AADC)/TiltSpot_start/app/src/main/AndroidManifest.xml
 		INJECTED from /home/muklasr/Downloads/Android Advanced Development Course (AADC)/TiltSpot_start/app/src/main/AndroidManifest.xml
 	android:versionName
@@ -68,10 +68,10 @@ MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/muklasr/.gradle/caches/
 		ADDED from /home/muklasr/Downloads/Android Advanced Development Course (AADC)/TiltSpot_start/app/src/main/AndroidManifest.xml:19:9-35
 	android:theme
 		ADDED from /home/muklasr/Downloads/Android Advanced Development Course (AADC)/TiltSpot_start/app/src/main/AndroidManifest.xml:24:9-40
-activity#com.example.android.tiltspot.MainActivity
+activity#com.muklas.android.tiltspot.MainActivity
 ADDED from /home/muklasr/Downloads/Android Advanced Development Course (AADC)/TiltSpot_start/app/src/main/AndroidManifest.xml:25:9-31:20
 	android:name
-		ADDED from /home/muklasr/Downloads/Android Advanced Development Course (AADC)/TiltSpot_start/app/src/main/AndroidManifest.xml:25:19-75
+		ADDED from /home/muklasr/Downloads/Android Advanced Development Course (AADC)/TiltSpot_start/app/src/main/AndroidManifest.xml:25:19-74
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from /home/muklasr/Downloads/Android Advanced Development Course (AADC)/TiltSpot_start/app/src/main/AndroidManifest.xml:26:13-30:29
 action#android.intent.action.MAIN

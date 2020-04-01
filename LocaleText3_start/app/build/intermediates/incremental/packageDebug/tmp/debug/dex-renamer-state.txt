@@ -1,0 +1,4 @@
+#Thu Mar 12 14:48:18 WIB 2020
+base.0=/home/muklasr/Downloads/Android Advanced Development Course (AADC)/LocaleText3_start/app/build/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex

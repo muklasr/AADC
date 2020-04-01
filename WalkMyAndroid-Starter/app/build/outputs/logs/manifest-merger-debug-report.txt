@@ -1,0 +1,208 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/muklasr/Downloads/Android Advanced Development Course (AADC)/WalkMyAndroid-Starter/app/src/main/AndroidManifest.xml:16:1-38:12
+INJECTED from /home/muklasr/Downloads/Android Advanced Development Course (AADC)/WalkMyAndroid-Starter/app/src/main/AndroidManifest.xml:16:1-38:12
+INJECTED from /home/muklasr/Downloads/Android Advanced Development Course (AADC)/WalkMyAndroid-Starter/app/src/main/AndroidManifest.xml:16:1-38:12
+INJECTED from /home/muklasr/Downloads/Android Advanced Development Course (AADC)/WalkMyAndroid-Starter/app/src/main/AndroidManifest.xml:16:1-38:12
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/muklasr/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/6667970bd2c5d834453bb052742f05c8/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/muklasr/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/8815ce4edf833d86244f9caa8b9e509f/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-location:11.4.2] /home/muklasr/.gradle/caches/transforms-1/files-1.1/play-services-location-11.4.2.aar/68a83eb627ad1e8204128d45949dac67/AndroidManifest.xml:2:1-5:12
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/muklasr/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/4e617fe8b62e1272dd5c098b489e0047/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/muklasr/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/b0b72a371eff555b43ca90cbe15607e8/AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-base:11.4.2] /home/muklasr/.gradle/caches/transforms-1/files-1.1/play-services-base-11.4.2.aar/23f0d2ff3c2f5c114fd5c9063b0ae680/AndroidManifest.xml:16:1-21:12
+MERGED from [com.google.android.gms:play-services-tasks:11.4.2] /home/muklasr/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.4.2.aar/1736c121c70d74144282e0c7f15ac1a6/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-basement:11.4.2] /home/muklasr/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.4.2.aar/977dc384a77db454323ac68616734b1a/AndroidManifest.xml:16:1-23:12
+MERGED from [com.android.support:support-v4:26.1.0] /home/muklasr/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/c8f2f545bd5e1985d79b1be3f7c66960/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.1.0] /home/muklasr/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/19ba580a667178b514e951f814fc84fd/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/muklasr/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/e4dc5353ae23d6c210149a2403a8d7e4/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/muklasr/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/757d021e7d69287ae718e65d905f7b8a/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/muklasr/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/2cd89cfc6a3ccca0b118de09dd23bc6d/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.1.0] /home/muklasr/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/100ea34bc4a41582213319ca303b277e/AndroidManifest.xml:17:1-31:12
+MERGED from [com.google.android.gms:play-services-location-license:11.4.2] /home/muklasr/.gradle/caches/transforms-1/files-1.1/play-services-location-license-11.4.2.aar/55294217ae9a77bdae22e3e6c7d185e8/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-base-license:11.4.2] /home/muklasr/.gradle/caches/transforms-1/files-1.1/play-services-base-license-11.4.2.aar/66227d9b4f46d9f078b31e4512270cec/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement-license:11.4.2] /home/muklasr/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.4.2.aar/392514430153a414502ab8c35f78eba4/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-tasks-license:11.4.2] /home/muklasr/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.4.2.aar/9af41d3e46de15e3daca03fa5089187f/AndroidManifest.xml:2:1-6:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/muklasr/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/8563fa7421f55a137fa8dab1845c6c29/AndroidManifest.xml:17:1-30:12
+INJECTED from /home/muklasr/Downloads/Android Advanced Development Course (AADC)/WalkMyAndroid-Starter/app/src/main/AndroidManifest.xml:16:1-38:12
+INJECTED from /home/muklasr/Downloads/Android Advanced Development Course (AADC)/WalkMyAndroid-Starter/app/src/main/AndroidManifest.xml:16:1-38:12
+INJECTED from /home/muklasr/Downloads/Android Advanced Development Course (AADC)/WalkMyAndroid-Starter/app/src/main/AndroidManifest.xml:16:1-38:12
+	package
+		ADDED from /home/muklasr/Downloads/Android Advanced Development Course (AADC)/WalkMyAndroid-Starter/app/src/main/AndroidManifest.xml:17:5-48
+		INJECTED from /home/muklasr/Downloads/Android Advanced Development Course (AADC)/WalkMyAndroid-Starter/app/src/main/AndroidManifest.xml
+		INJECTED from /home/muklasr/Downloads/Android Advanced Development Course (AADC)/WalkMyAndroid-Starter/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/muklasr/Downloads/Android Advanced Development Course (AADC)/WalkMyAndroid-Starter/app/src/main/AndroidManifest.xml
+		ADDED from /home/muklasr/Downloads/Android Advanced Development Course (AADC)/WalkMyAndroid-Starter/app/src/main/AndroidManifest.xml:16:1-38:12
+		INJECTED from /home/muklasr/Downloads/Android Advanced Development Course (AADC)/WalkMyAndroid-Starter/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/muklasr/Downloads/Android Advanced Development Course (AADC)/WalkMyAndroid-Starter/app/src/main/AndroidManifest.xml
+		ADDED from /home/muklasr/Downloads/Android Advanced Development Course (AADC)/WalkMyAndroid-Starter/app/src/main/AndroidManifest.xml:16:1-38:12
+		INJECTED from /home/muklasr/Downloads/Android Advanced Development Course (AADC)/WalkMyAndroid-Starter/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/muklasr/Downloads/Android Advanced Development Course (AADC)/WalkMyAndroid-Starter/app/src/main/AndroidManifest.xml:16:11-69
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /home/muklasr/Downloads/Android Advanced Development Course (AADC)/WalkMyAndroid-Starter/app/src/main/AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from /home/muklasr/Downloads/Android Advanced Development Course (AADC)/WalkMyAndroid-Starter/app/src/main/AndroidManifest.xml:19:22-76
+application
+ADDED from /home/muklasr/Downloads/Android Advanced Development Course (AADC)/WalkMyAndroid-Starter/app/src/main/AndroidManifest.xml:21:5-36:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/muklasr/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/6667970bd2c5d834453bb052742f05c8/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/muklasr/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/6667970bd2c5d834453bb052742f05c8/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/muklasr/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/8815ce4edf833d86244f9caa8b9e509f/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/muklasr/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/8815ce4edf833d86244f9caa8b9e509f/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-location:11.4.2] /home/muklasr/.gradle/caches/transforms-1/files-1.1/play-services-location-11.4.2.aar/68a83eb627ad1e8204128d45949dac67/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-location:11.4.2] /home/muklasr/.gradle/caches/transforms-1/files-1.1/play-services-location-11.4.2.aar/68a83eb627ad1e8204128d45949dac67/AndroidManifest.xml:4:5-19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/muklasr/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/4e617fe8b62e1272dd5c098b489e0047/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/muklasr/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/4e617fe8b62e1272dd5c098b489e0047/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/muklasr/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/b0b72a371eff555b43ca90cbe15607e8/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/muklasr/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/b0b72a371eff555b43ca90cbe15607e8/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-base:11.4.2] /home/muklasr/.gradle/caches/transforms-1/files-1.1/play-services-base-11.4.2.aar/23f0d2ff3c2f5c114fd5c9063b0ae680/AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-base:11.4.2] /home/muklasr/.gradle/caches/transforms-1/files-1.1/play-services-base-11.4.2.aar/23f0d2ff3c2f5c114fd5c9063b0ae680/AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-tasks:11.4.2] /home/muklasr/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.4.2.aar/1736c121c70d74144282e0c7f15ac1a6/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-tasks:11.4.2] /home/muklasr/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.4.2.aar/1736c121c70d74144282e0c7f15ac1a6/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:11.4.2] /home/muklasr/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.4.2.aar/977dc384a77db454323ac68616734b1a/AndroidManifest.xml:19:5-21:19
+MERGED from [com.google.android.gms:play-services-basement:11.4.2] /home/muklasr/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.4.2.aar/977dc384a77db454323ac68616734b1a/AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:26.1.0] /home/muklasr/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/c8f2f545bd5e1985d79b1be3f7c66960/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] /home/muklasr/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/c8f2f545bd5e1985d79b1be3f7c66960/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /home/muklasr/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/19ba580a667178b514e951f814fc84fd/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /home/muklasr/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/19ba580a667178b514e951f814fc84fd/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/muklasr/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/e4dc5353ae23d6c210149a2403a8d7e4/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/muklasr/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/e4dc5353ae23d6c210149a2403a8d7e4/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/muklasr/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/757d021e7d69287ae718e65d905f7b8a/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/muklasr/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/757d021e7d69287ae718e65d905f7b8a/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/muklasr/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/2cd89cfc6a3ccca0b118de09dd23bc6d/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/muklasr/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/2cd89cfc6a3ccca0b118de09dd23bc6d/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /home/muklasr/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/100ea34bc4a41582213319ca303b277e/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /home/muklasr/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/100ea34bc4a41582213319ca303b277e/AndroidManifest.xml:25:5-29:19
+MERGED from [com.google.android.gms:play-services-location-license:11.4.2] /home/muklasr/.gradle/caches/transforms-1/files-1.1/play-services-location-license-11.4.2.aar/55294217ae9a77bdae22e3e6c7d185e8/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-location-license:11.4.2] /home/muklasr/.gradle/caches/transforms-1/files-1.1/play-services-location-license-11.4.2.aar/55294217ae9a77bdae22e3e6c7d185e8/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-base-license:11.4.2] /home/muklasr/.gradle/caches/transforms-1/files-1.1/play-services-base-license-11.4.2.aar/66227d9b4f46d9f078b31e4512270cec/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-base-license:11.4.2] /home/muklasr/.gradle/caches/transforms-1/files-1.1/play-services-base-license-11.4.2.aar/66227d9b4f46d9f078b31e4512270cec/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:11.4.2] /home/muklasr/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.4.2.aar/392514430153a414502ab8c35f78eba4/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:11.4.2] /home/muklasr/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.4.2.aar/392514430153a414502ab8c35f78eba4/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:11.4.2] /home/muklasr/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.4.2.aar/9af41d3e46de15e3daca03fa5089187f/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:11.4.2] /home/muklasr/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.4.2.aar/9af41d3e46de15e3daca03fa5089187f/AndroidManifest.xml:5:5-20
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/muklasr/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/8563fa7421f55a137fa8dab1845c6c29/AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/muklasr/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/8563fa7421f55a137fa8dab1845c6c29/AndroidManifest.xml:24:5-28:19
+	android:supportsRtl
+		ADDED from /home/muklasr/Downloads/Android Advanced Development Course (AADC)/WalkMyAndroid-Starter/app/src/main/AndroidManifest.xml:26:9-35
+	android:label
+		ADDED from /home/muklasr/Downloads/Android Advanced Development Course (AADC)/WalkMyAndroid-Starter/app/src/main/AndroidManifest.xml:24:9-41
+	android:roundIcon
+		ADDED from /home/muklasr/Downloads/Android Advanced Development Course (AADC)/WalkMyAndroid-Starter/app/src/main/AndroidManifest.xml:25:9-54
+	android:icon
+		ADDED from /home/muklasr/Downloads/Android Advanced Development Course (AADC)/WalkMyAndroid-Starter/app/src/main/AndroidManifest.xml:23:9-43
+	android:allowBackup
+		ADDED from /home/muklasr/Downloads/Android Advanced Development Course (AADC)/WalkMyAndroid-Starter/app/src/main/AndroidManifest.xml:22:9-35
+	android:theme
+		ADDED from /home/muklasr/Downloads/Android Advanced Development Course (AADC)/WalkMyAndroid-Starter/app/src/main/AndroidManifest.xml:27:9-40
+activity#com.example.android.walkmyandroid.MainActivity
+ADDED from /home/muklasr/Downloads/Android Advanced Development Course (AADC)/WalkMyAndroid-Starter/app/src/main/AndroidManifest.xml:28:9-34:20
+	android:name
+		ADDED from /home/muklasr/Downloads/Android Advanced Development Course (AADC)/WalkMyAndroid-Starter/app/src/main/AndroidManifest.xml:28:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/muklasr/Downloads/Android Advanced Development Course (AADC)/WalkMyAndroid-Starter/app/src/main/AndroidManifest.xml:29:13-33:29
+action#android.intent.action.MAIN
+ADDED from /home/muklasr/Downloads/Android Advanced Development Course (AADC)/WalkMyAndroid-Starter/app/src/main/AndroidManifest.xml:30:17-69
+	android:name
+		ADDED from /home/muklasr/Downloads/Android Advanced Development Course (AADC)/WalkMyAndroid-Starter/app/src/main/AndroidManifest.xml:30:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/muklasr/Downloads/Android Advanced Development Course (AADC)/WalkMyAndroid-Starter/app/src/main/AndroidManifest.xml:32:17-77
+	android:name
+		ADDED from /home/muklasr/Downloads/Android Advanced Development Course (AADC)/WalkMyAndroid-Starter/app/src/main/AndroidManifest.xml:32:27-74
+uses-sdk
+INJECTED from /home/muklasr/Downloads/Android Advanced Development Course (AADC)/WalkMyAndroid-Starter/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/muklasr/Downloads/Android Advanced Development Course (AADC)/WalkMyAndroid-Starter/app/src/main/AndroidManifest.xml
+INJECTED from /home/muklasr/Downloads/Android Advanced Development Course (AADC)/WalkMyAndroid-Starter/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/muklasr/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/6667970bd2c5d834453bb052742f05c8/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/muklasr/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/6667970bd2c5d834453bb052742f05c8/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/muklasr/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/8815ce4edf833d86244f9caa8b9e509f/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/muklasr/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/8815ce4edf833d86244f9caa8b9e509f/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-location:11.4.2] /home/muklasr/.gradle/caches/transforms-1/files-1.1/play-services-location-11.4.2.aar/68a83eb627ad1e8204128d45949dac67/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-location:11.4.2] /home/muklasr/.gradle/caches/transforms-1/files-1.1/play-services-location-11.4.2.aar/68a83eb627ad1e8204128d45949dac67/AndroidManifest.xml:3:5-43
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/muklasr/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/4e617fe8b62e1272dd5c098b489e0047/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/muklasr/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/4e617fe8b62e1272dd5c098b489e0047/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/muklasr/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/b0b72a371eff555b43ca90cbe15607e8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/muklasr/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/b0b72a371eff555b43ca90cbe15607e8/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:11.4.2] /home/muklasr/.gradle/caches/transforms-1/files-1.1/play-services-base-11.4.2.aar/23f0d2ff3c2f5c114fd5c9063b0ae680/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:11.4.2] /home/muklasr/.gradle/caches/transforms-1/files-1.1/play-services-base-11.4.2.aar/23f0d2ff3c2f5c114fd5c9063b0ae680/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.4.2] /home/muklasr/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.4.2.aar/1736c121c70d74144282e0c7f15ac1a6/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.4.2] /home/muklasr/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.4.2.aar/1736c121c70d74144282e0c7f15ac1a6/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.4.2] /home/muklasr/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.4.2.aar/977dc384a77db454323ac68616734b1a/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.4.2] /home/muklasr/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.4.2.aar/977dc384a77db454323ac68616734b1a/AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:support-v4:26.1.0] /home/muklasr/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/c8f2f545bd5e1985d79b1be3f7c66960/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] /home/muklasr/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/c8f2f545bd5e1985d79b1be3f7c66960/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:26.1.0] /home/muklasr/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/19ba580a667178b514e951f814fc84fd/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.1.0] /home/muklasr/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/19ba580a667178b514e951f814fc84fd/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/muklasr/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/e4dc5353ae23d6c210149a2403a8d7e4/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/muklasr/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/e4dc5353ae23d6c210149a2403a8d7e4/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/muklasr/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/757d021e7d69287ae718e65d905f7b8a/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/muklasr/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/757d021e7d69287ae718e65d905f7b8a/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/muklasr/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/2cd89cfc6a3ccca0b118de09dd23bc6d/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/muklasr/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/2cd89cfc6a3ccca0b118de09dd23bc6d/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:26.1.0] /home/muklasr/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/100ea34bc4a41582213319ca303b277e/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] /home/muklasr/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/100ea34bc4a41582213319ca303b277e/AndroidManifest.xml:21:5-23:58
+MERGED from [com.google.android.gms:play-services-location-license:11.4.2] /home/muklasr/.gradle/caches/transforms-1/files-1.1/play-services-location-license-11.4.2.aar/55294217ae9a77bdae22e3e6c7d185e8/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-location-license:11.4.2] /home/muklasr/.gradle/caches/transforms-1/files-1.1/play-services-location-license-11.4.2.aar/55294217ae9a77bdae22e3e6c7d185e8/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-base-license:11.4.2] /home/muklasr/.gradle/caches/transforms-1/files-1.1/play-services-base-license-11.4.2.aar/66227d9b4f46d9f078b31e4512270cec/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-base-license:11.4.2] /home/muklasr/.gradle/caches/transforms-1/files-1.1/play-services-base-license-11.4.2.aar/66227d9b4f46d9f078b31e4512270cec/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement-license:11.4.2] /home/muklasr/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.4.2.aar/392514430153a414502ab8c35f78eba4/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement-license:11.4.2] /home/muklasr/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.4.2.aar/392514430153a414502ab8c35f78eba4/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks-license:11.4.2] /home/muklasr/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.4.2.aar/9af41d3e46de15e3daca03fa5089187f/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks-license:11.4.2] /home/muklasr/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.4.2.aar/9af41d3e46de15e3daca03fa5089187f/AndroidManifest.xml:4:5-43
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/muklasr/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/8563fa7421f55a137fa8dab1845c6c29/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/muklasr/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/8563fa7421f55a137fa8dab1845c6c29/AndroidManifest.xml:20:5-22:41
+INJECTED from /home/muklasr/Downloads/Android Advanced Development Course (AADC)/WalkMyAndroid-Starter/app/src/main/AndroidManifest.xml
+INJECTED from /home/muklasr/Downloads/Android Advanced Development Course (AADC)/WalkMyAndroid-Starter/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:26.1.0] /home/muklasr/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/6667970bd2c5d834453bb052742f05c8/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from /home/muklasr/Downloads/Android Advanced Development Course (AADC)/WalkMyAndroid-Starter/app/src/main/AndroidManifest.xml
+		ADDED from /home/muklasr/Downloads/Android Advanced Development Course (AADC)/WalkMyAndroid-Starter/app/src/main/AndroidManifest.xml
+		INJECTED from /home/muklasr/Downloads/Android Advanced Development Course (AADC)/WalkMyAndroid-Starter/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/muklasr/Downloads/Android Advanced Development Course (AADC)/WalkMyAndroid-Starter/app/src/main/AndroidManifest.xml
+		ADDED from /home/muklasr/Downloads/Android Advanced Development Course (AADC)/WalkMyAndroid-Starter/app/src/main/AndroidManifest.xml
+		INJECTED from /home/muklasr/Downloads/Android Advanced Development Course (AADC)/WalkMyAndroid-Starter/app/src/main/AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:26.1.0] /home/muklasr/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/6667970bd2c5d834453bb052742f05c8/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/muklasr/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/4e617fe8b62e1272dd5c098b489e0047/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/muklasr/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/4e617fe8b62e1272dd5c098b489e0047/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/muklasr/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/b0b72a371eff555b43ca90cbe15607e8/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/muklasr/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/b0b72a371eff555b43ca90cbe15607e8/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.1.0] /home/muklasr/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/c8f2f545bd5e1985d79b1be3f7c66960/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] /home/muklasr/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/c8f2f545bd5e1985d79b1be3f7c66960/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /home/muklasr/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/19ba580a667178b514e951f814fc84fd/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /home/muklasr/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/19ba580a667178b514e951f814fc84fd/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/muklasr/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/e4dc5353ae23d6c210149a2403a8d7e4/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/muklasr/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/e4dc5353ae23d6c210149a2403a8d7e4/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/muklasr/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/757d021e7d69287ae718e65d905f7b8a/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/muklasr/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/757d021e7d69287ae718e65d905f7b8a/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/muklasr/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/2cd89cfc6a3ccca0b118de09dd23bc6d/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/muklasr/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/2cd89cfc6a3ccca0b118de09dd23bc6d/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /home/muklasr/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/100ea34bc4a41582213319ca303b277e/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /home/muklasr/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/100ea34bc4a41582213319ca303b277e/AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:appcompat-v7:26.1.0] /home/muklasr/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/6667970bd2c5d834453bb052742f05c8/AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:appcompat-v7:26.1.0] /home/muklasr/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/6667970bd2c5d834453bb052742f05c8/AndroidManifest.xml:27:13-51
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:11.4.2] /home/muklasr/.gradle/caches/transforms-1/files-1.1/play-services-base-11.4.2.aar/23f0d2ff3c2f5c114fd5c9063b0ae680/AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:11.4.2] /home/muklasr/.gradle/caches/transforms-1/files-1.1/play-services-base-11.4.2.aar/23f0d2ff3c2f5c114fd5c9063b0ae680/AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:11.4.2] /home/muklasr/.gradle/caches/transforms-1/files-1.1/play-services-base-11.4.2.aar/23f0d2ff3c2f5c114fd5c9063b0ae680/AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:11.4.2] /home/muklasr/.gradle/caches/transforms-1/files-1.1/play-services-base-11.4.2.aar/23f0d2ff3c2f5c114fd5c9063b0ae680/AndroidManifest.xml:19:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:11.4.2] /home/muklasr/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.4.2.aar/977dc384a77db454323ac68616734b1a/AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:11.4.2] /home/muklasr/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.4.2.aar/977dc384a77db454323ac68616734b1a/AndroidManifest.xml:20:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:11.4.2] /home/muklasr/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.4.2.aar/977dc384a77db454323ac68616734b1a/AndroidManifest.xml:20:20-65
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/muklasr/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/8563fa7421f55a137fa8dab1845c6c29/AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/muklasr/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/8563fa7421f55a137fa8dab1845c6c29/AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/muklasr/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/8563fa7421f55a137fa8dab1845c6c29/AndroidManifest.xml:26:13-58
