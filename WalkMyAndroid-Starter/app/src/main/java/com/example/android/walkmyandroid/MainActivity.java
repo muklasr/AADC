@@ -16,15 +16,13 @@
 package com.example.android.walkmyandroid;
 
 import android.Manifest;
-import android.animation.Animator;
 import android.animation.AnimatorInflater;
 import android.animation.AnimatorSet;
 import android.content.pm.PackageManager;
-import android.location.Location;
+import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
@@ -36,13 +34,11 @@ import com.google.android.gms.location.LocationCallback;
 import com.google.android.gms.location.LocationRequest;
 import com.google.android.gms.location.LocationResult;
 import com.google.android.gms.location.LocationServices;
-import com.google.android.gms.tasks.OnSuccessListener;
 
 public class MainActivity extends AppCompatActivity implements FetchAddressTask.OnTaskCompleted {
 
     private TextView tvLocation;
     private Button btnLocation;
-    private ImageView mAndroidImageView;
     private AnimatorSet mRotateAnim;
     private boolean mTrackingLocation;
     private static final int REQUEST_LOCATION_PERMISSION = 1;
@@ -56,7 +52,7 @@ public class MainActivity extends AppCompatActivity implements FetchAddressTask.
         setContentView(R.layout.activity_main);
         btnLocation = findViewById(R.id.button_location);
         tvLocation = findViewById(R.id.textview_location);
-        mAndroidImageView = findViewById(R.id.imageview_android);
+        ImageView mAndroidImageView = findViewById(R.id.imageview_android);
         mRotateAnim = (AnimatorSet) AnimatorInflater.loadAnimator(this, R.animator.rotate);
         mFusedLocationClient = LocationServices.getFusedLocationProviderClient(this);
 
@@ -112,7 +108,7 @@ public class MainActivity extends AppCompatActivity implements FetchAddressTask.
             mRotateAnim.start();
             mTrackingLocation = true;
             btnLocation.setText(R.string.stop_tracking_location);
-            tvLocation.setText(R.string.textview_stop);
+            tvLocation.setText(R.string.loading);
         }
     }
 
@@ -128,14 +124,12 @@ public class MainActivity extends AppCompatActivity implements FetchAddressTask.
 
     @Override
     public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
-        switch (requestCode) {
-            case REQUEST_LOCATION_PERMISSION:
-                if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
-                    startTrackingLocation();
-                } else {
-                    Toast.makeText(this, "Permission Denied!", Toast.LENGTH_SHORT).show();
-                }
-                break;
+        if (requestCode == REQUEST_LOCATION_PERMISSION) {
+            if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+                startTrackingLocation();
+            } else {
+                Toast.makeText(this, "Permission Denied!", Toast.LENGTH_SHORT).show();
+            }
         }
     }
 

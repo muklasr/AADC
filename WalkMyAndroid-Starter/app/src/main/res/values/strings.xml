@@ -19,5 +19,5 @@
     <string name="stop_tracking_location">Stop Tracking Location.</string>
     <string name="android_image">Android Image</string>
     <string name="textview_start">Press the button to start tracking your location.</string>
-    <string name="textview_stop">Press the button to stop tracking your location.</string>
+    <string name="loading">Loading..</string>
 </resources>

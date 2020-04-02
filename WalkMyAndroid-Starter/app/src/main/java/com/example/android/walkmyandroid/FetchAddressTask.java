@@ -1,5 +1,6 @@
 package com.example.android.walkmyandroid;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.location.Address;
 import android.location.Geocoder;
@@ -14,6 +15,7 @@ import java.util.Locale;
 
 public class FetchAddressTask extends AsyncTask<Location, Void, String> {
 
+    @SuppressLint("StaticFieldLeak")
     private Context mContext;
     private OnTaskCompleted mListener;
 
@@ -27,7 +29,7 @@ public class FetchAddressTask extends AsyncTask<Location, Void, String> {
         Geocoder geocoder = new Geocoder(mContext, Locale.getDefault());
         Location location = locations[0];
         List<Address> addresses = null;
-        String resultMessage = "";
+        String resultMessage;
 
         try {
             addresses = geocoder.getFromLocation(location.getLatitude(), location.getLongitude(), 1);
